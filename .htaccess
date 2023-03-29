@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+Header set Access-Control-Allow-Origin "*"
+php_flag display_errors on
+AddType application/x-font-woff .woff
