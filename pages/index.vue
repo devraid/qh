@@ -1,7 +1,13 @@
 <script lang="ts">
+import { useI18n } from 'vue-i18n'
+
 export default {
 	name: 'IndexPage',
 	components: {},
+	setup() {
+		const { t } = useI18n()
+		return { t }
+	},
 	mounted () {
 		this.$nextTick(function () {
 			let everythingLoaded = setInterval(function (scope) {
@@ -24,8 +30,8 @@ export default {
 <template>
 	<main class="home bg-slate-200">
 		<div class="container mx-auto px-5 bg-slate-200">
-			<h1>{{ $t('nuxt3_boilerplate') }}</h1>
-			{{ $t('description') }}
+			<h1>{{ t('nuxt3_boilerplate') }}</h1>
+			{{ t('description') }}
 		</div>
 	</main>
 </template>

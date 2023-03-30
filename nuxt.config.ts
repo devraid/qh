@@ -1,8 +1,8 @@
 // nuxt.config.ts
-import { defineNuxtConfig } from 'nuxt/config'
-import eslintPlugin from 'vite-plugin-eslint';
+import eslintPlugin from 'vite-plugin-eslint'
+import { NuxtConfig } from '@nuxt/types'
 
-export default defineNuxtConfig({
+const config: NuxtConfig = {
 	ssrLog: true,
 	components: true,
 	target: 'server',
@@ -34,11 +34,20 @@ export default defineNuxtConfig({
 			lintOnStart: false
 		}]
 	],
+	buildModules: ['@nuxt/typescript-build'],
+	typescript: {
+		typeCheck: true
+	},
 	intlify: {
 		localeDir: 'lang',
 		vueI18n: {
+			legacy: false,
+			globalInjection: true,
 			locale: 'en',
-			fallbackLocale: 'en'
+			fallbackLocale: 'en',
+			fallbackWarn: false
 		}
 	}
-})
+}
+
+export default config

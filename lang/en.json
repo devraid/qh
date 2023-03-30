@@ -1,4 +1,4 @@
 {
     "nuxt3_boilerplate": "Nuxt 3 Boilerplate",
-    "description": "Nuxt 3 + Tailwind + Eslint + i18n + Sentry Starter"
+    "description": "Nuxt 3 + TypeScript + Tailwind + Eslint + i18n"
 }
