@@ -7,20 +7,17 @@ module.exports = {
 		'vue/setup-compiler-macros': true
 	},
 	extends: [
-		'plugin:@typescript-eslint/recommended',
 		'plugin:nuxt/recommended',
 		'plugin:vue/vue3-recommended',
 	],
 	parser: 'vue-eslint-parser',
 	overrides: [],
 	parserOptions: {
-		parser: '@typescript-eslint/parser',
 		ecmaVersion: 'latest',
 		sourceType: 'module'
 	},
 	plugins: [
-		'vue',
-		'@typescript-eslint'
+		'vue'
 	],
 	rules: {
 		'nuxt/no-cjs-in-config': 'off',

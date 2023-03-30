@@ -1,7 +1,4 @@
-// tailwind.config.ts
-import { Config } from 'tailwindcss';
-
-export default <Config> <unknown>{
+module.exports = {
 	content: [
 		'./components/**/*.{js,ts,jsx,tsx,vue}',
 		'./pages/**/*.{js,ts,jsx,tsx,vue}',

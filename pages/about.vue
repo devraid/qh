@@ -1,4 +1,3 @@
-<script lang="ts" setup></script>
 <script>
 export default {
 	name: 'AboutPage'
@@ -10,5 +9,3 @@ export default {
 		Page: foo
 	</div>
 </template>
-
-<style scoped></style>

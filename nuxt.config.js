@@ -28,11 +28,10 @@ export default defineNuxtConfig({
 	},
 	modules: [
 		'@nuxtjs/tailwindcss',
-		'@intlify/nuxt3'
-	],
-	buildModules: [
+		'@intlify/nuxt3',
 		['@nuxtjs/eslint-module', {
-			fix: true
+			fix: true,
+			lintOnStart: false
 		}]
 	],
 	intlify: {
