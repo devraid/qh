@@ -1,0 +1,21 @@
+:root {
+  --transparent: transparent;
+  /* GRAY COLOR */
+  --gray: #545859;
+  --gray-7: #656869;
+  --gray-6: #878A8A;
+  --gray-5: #CBCDCD;
+  --gray-4: #DDDEDE;
+  --gray-3: #E5E6E6;
+  --gray-2: #EEEEEE;
+  --gray-1: #F6F7F7;
+  /* GREEN COLOR */
+  --green: #004D20;
+  --green-7: #007A33;
+  --green-6: #009738;
+  --green-5: #8ED07F;
+  --green-4: #C7E7BF;
+  --green-3: #E8F6ED;
+  --green-2: #E3F3DF;
+  --green-1: #F6FBF4;
+}

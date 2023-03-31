@@ -1,4 +1,9 @@
 {
-    "nuxt3_boilerplate": "Nuxt 3 Boilerplate",
-    "description": "Nuxt 3 + TypeScript + Tailwind + Eslint + i18n"
+    "sign_in": "Sign In",
+    "register": "Register",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "boilerplate": "Nuxt 3 + TypeScript + Tailwind + Eslint + i18n"
 }

@@ -1,0 +1,26 @@
+/* Avenir Next */
+@font-face {
+  font-family: "avenir-next-book";
+  src: url("./fonts/avenir-next-book.woff") format("woff"), url("./fonts/avenir-next-book.eot") format("eot"), url("./fonts/avenir-next-book.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* Avenir Next Heavy */
+@font-face {
+  font-family: "avenir-next-heavy";
+  src: url("./fonts/avenir-next-heavy.woff"), url("./fonts/avenir-next-heavy.eot") format("eot"), url("./fonts/avenir-next-heavy.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* Avenir Next Heavy */
+@font-face {
+  font-family: "avenir-next-condensed";
+  src: url("./fonts/avenir-next-condensed.woff"), url("./fonts/avenir-next-condensed.eot") format("eot"), url("./fonts/avenir-next-condensed.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}

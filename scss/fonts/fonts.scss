@@ -1,35 +1,35 @@
+/* Avenir Next */
 @font-face {
-  font-family: 'TradeGothic-Rg';
-  src: url('./fonts/TradeGothic.woff2') format('woff2'),
-      url('./fonts/TradeGothic.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: fallback;
+  font-family: "avenir-next-book";
+  src:
+    url("./fonts/avenir-next-book.woff") format("woff"),
+    url("./fonts/avenir-next-book.eot") format("eot"),
+    url("./fonts/avenir-next-book.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
 }
 
+/* Avenir Next Heavy */
 @font-face {
-  font-family: 'TradeGothic-Bd';
-  src: url('./fonts/TradeGothic-BoldTwo.woff2') format('woff2'),
-      url('./fonts/TradeGothic-BoldTwo.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: fallback;
+  font-family: "avenir-next-heavy";
+  src:
+    url("./fonts/avenir-next-heavy.woff"),
+    url("./fonts/avenir-next-heavy.eot") format("eot"),
+    url("./fonts/avenir-next-heavy.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
 }
 
+/* Avenir Next Heavy */
 @font-face {
-  font-family: 'TradeGothic-Cond';
-  src: url('./fonts/TradeGothicLT-CondEighteen.woff2') format('woff2'),
-      url('./fonts/TradeGothicLT-CondEighteen.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: 'TradeGothic-Ext';
-  src: url('./fonts/TradeGothicLH-Extended.woff2') format('woff2'),
-      url('./fonts/TradeGothicLH-Extended.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: fallback;
+  font-family: "avenir-next-condensed";
+  src:
+    url("./fonts/avenir-next-condensed.woff"),
+    url("./fonts/avenir-next-condensed.eot") format("eot"),
+    url("./fonts/avenir-next-condensed.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
 }
