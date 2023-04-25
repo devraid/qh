@@ -115,7 +115,7 @@ blockquote:before, blockquote:after, q:before, q:after {
   background: rgba(0, 0, 0, 0.05);
 }
 
-html, body, main {
+html, body, #__nuxt, main {
   overflow: hidden;
   overflow-x: hidden;
   min-height: 100vh;
@@ -130,4 +130,15 @@ html, body, main {
 
 html {
   overflow-y: auto;
+}
+
+:root .nuxt-icon svg {
+  margin-bottom: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
 }

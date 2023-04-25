@@ -1,5 +1,4 @@
-<script lang="ts" setup></script>
-<script>
+<script lang="ts">
 export default {
 	name: 'HeaderComponent'
 }
@@ -10,5 +9,3 @@ export default {
 		Component: Header
 	</div>
 </template>
-
-<style scoped></style>

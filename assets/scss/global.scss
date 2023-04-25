@@ -100,7 +100,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 // DOCUMENT
-html, body, main {
+html, body, #__nuxt, main {
 	overflow: hidden;
 	overflow-x: hidden;
 	min-height: 100vh;
@@ -135,4 +135,17 @@ html {
 			}
 		}
 	}
+}
+
+// NUXT ICONS
+:root .nuxt-icon svg {
+    margin-bottom: 0;
+}
+
+// REMOVE SKY BLUE ON AUTOFILL INPUTS
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px white inset !important;
 }

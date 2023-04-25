@@ -2,6 +2,10 @@ module.exports = {
 	content: [
 		'./components/**/*.{js,ts,jsx,tsx,vue}',
 		'./pages/**/*.{js,ts,jsx,tsx,vue}',
+		'./assets/**/*.{js,ts,jsx,tsx,vue,css}',
+		'./layouts/**/*.vue',
+		'./plugins/**/*.{js,ts,jsx,tsx}',
+		'./nuxt.config.{js,ts,jsx,tsx}'
 	],
 	theme: {
 		container: false,
@@ -9,7 +13,7 @@ module.exports = {
 			body: ['avenir-next-book', 'sans-serif'],
 			'avenir-next-book': ['avenir-next-book', 'sans-serif'],
 			'avenir-next-condensed': ['avenir-next-condensed', 'sans-serif'],
-			'avenir-next-heavy': ['avenir-next-heavy', 'sans-serif'],
+			'avenir-next-heavy': ['avenir-next-heavy', 'sans-serif']
 		  },
 		extend: {
 			screens: {
