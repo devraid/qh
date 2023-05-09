@@ -47,7 +47,7 @@ const config: NuxtConfig = {
 		}
 	  },
 	typescript: {
-		typeCheck: true
+		typeCheck: true,
 	},
 	intlify: {
 		localeDir: 'lang',

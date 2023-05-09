@@ -9,6 +9,7 @@
       "ESNext.AsyncIterable",
       "DOM"
     ],
+    "maxNodeModuleJsDepth": 0,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowJs": true,
@@ -16,14 +17,6 @@
     "strict": true,
     "noEmit": true,
     "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
-    },
     "types": [
       "@nuxt/types",
       "@nuxt/typescript-build",
@@ -32,5 +25,5 @@
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
