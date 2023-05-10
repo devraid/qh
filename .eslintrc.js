@@ -30,5 +30,12 @@ module.exports = {
 		'vue/html-closing-bracket-newline': 'off',
 		indent: ['error', 'tab'],
 		'no-tabs': 'off',
+		'@typescript-eslint/no-this-alias': [
+			'error',
+			{
+				allowDestructuring: true,
+				allowedNames: ['self'],
+			},
+		],
 	},
 }
