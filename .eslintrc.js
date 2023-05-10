@@ -28,7 +28,7 @@ module.exports = {
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'vue/html-indent': ['error', 'tab'],
 		'vue/html-closing-bracket-newline': 'off',
-		indent: [2, 'tab'],
+		indent: ['error', 'tab'],
 		'no-tabs': 'off',
 	},
 }
