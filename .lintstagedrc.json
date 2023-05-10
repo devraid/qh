@@ -1,6 +1,6 @@
 {
-  "*.ts": ["eslint", "prettier --write"],
-  "*.tsx": ["eslint", "prettier --write"],
-  "*.vue": ["eslint", "prettier --write"],
-  "*.scss": "prettier --write"
+	"*.ts": ["eslint --fix", "prettier --write"],
+	"*.tsx": ["eslint --fix", "prettier --write"],
+	"*.vue": ["eslint --fix", "prettier --write"],
+	"*.scss": "prettier --write"
 }
