@@ -14,6 +14,7 @@ export default {
 		}
 	},
 	mounted () {
+		console.log('hello world');
 		this.$nextTick(function () {
 			let everythingLoaded = setInterval(function (scope) {
 				if (/loaded|complete/.test(document.readyState)) {
