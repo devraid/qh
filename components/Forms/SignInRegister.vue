@@ -1,5 +1,4 @@
 <script lang="ts">
-import { useI18n } from 'vue-i18n'
 import { required, email, sameAs, minLength, helpers } from '@vuelidate/validators'
 import { useVuelidate } from '@vuelidate/core'
 

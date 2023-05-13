@@ -1,11 +1,9 @@
 <script lang="ts">
 export default {
-	name: 'HeaderComponent'
+	name: 'HeaderComponent',
 }
 </script>
 
 <template>
-	<div>
-		Component: Header
-	</div>
+	<div>Component: Header</div>
 </template>

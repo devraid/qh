@@ -1,13 +1,11 @@
 <script lang="ts">
 export default {
-	name: 'FooterComponent'
+	name: 'FooterComponent',
 }
 </script>
 
 <template>
-	<div>
-		Component: Footer
-	</div>
+	<div>Component: Footer</div>
 </template>
 
 <style scoped></style>

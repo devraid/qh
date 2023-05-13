@@ -11,63 +11,55 @@ const config: NuxtConfig = {
 		head: {
 			title: 'QH',
 			htmlAttrs: {
-		  lang: 'en'
+				lang: 'en',
 			},
 			meta: [
-		  { charset: 'utf-8' },
-		  { name: 'viewport', content: 'user-scalable=no, width=device-width, initial-scale=1' },
-		  { hid: 'description', name: 'description', content: '' },
-		  { name: 'format-detection', content: 'telephone=no' }
-			]
-		}
+				{ charset: 'utf-8' },
+				{ name: 'viewport', content: 'user-scalable=no, width=device-width, initial-scale=1' },
+				{ hid: 'description', name: 'description', content: '' },
+				{ name: 'format-detection', content: 'telephone=no' },
+			],
+		},
 	},
-	css: [
-		'@/assets/scss/application.scss'
-	],
+	css: ['@/assets/scss/application.scss'],
 	vite: {
-		plugins: [
-			eslintPlugin()
-		]
+		plugins: [eslintPlugin()],
 	},
 	modules: [
+		'@nuxtjs/i18n',
 		'@nuxtjs/tailwindcss',
-		'@intlify/nuxt3',
-		['@nuxtjs/eslint-module', {
-			fix: true,
-			lintOnStart: false
-		}],
-		'nuxt-icons'
+		[
+			'@nuxtjs/eslint-module',
+			{
+				fix: true,
+				lintOnStart: false,
+			},
+		],
+		'nuxt-icons',
 	],
 	buildModules: ['@nuxt/typescript-build'],
 	nuxtIcon: {
 		size: '24px', // default <Icon> size applied
 		class: 'nux-icon', // default <Icon> class applied
 		aliases: {
-		  'nuxt': 'logos:nuxt-icon',
-		}
-	  },
+			nuxt: 'logos:nuxt-icon',
+		},
+	},
 	typescript: {
 		typeCheck: true,
 	},
-	intlify: {
-		localeDir: 'lang',
-		vueI18n: {
-			legacy: false,
-			globalInjection: true,
-			locale: 'en',
-			fallbackLocale: 'en',
-			fallbackWarn: false
-		}
-	},
 	postcss: {
 		plugins: {
-		  tailwindcss: {},
-		  autoprefixer: {},
+			tailwindcss: {},
+			autoprefixer: {},
 		},
 	},
 	imports: {
-		autoImport: true
-	}
+		autoImport: true,
+	},
+	i18n: {
+		vueI18n: './i18n.config.ts', // if you are using custom path, default
+	},
 }
 
 export default config

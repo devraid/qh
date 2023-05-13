@@ -1,29 +1,19 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "target": "ES2018",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
-    "maxNodeModuleJsDepth": 0,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "types": [
-      "@nuxt/types",
-      "@nuxt/typescript-build",
-      "@types/node"
-    ]
-  },
-  "exclude": [
-    "node_modules"
-  ],
+	"extends": "./.nuxt/tsconfig.json",
+	"compilerOptions": {
+		"target": "ES2018",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+		"maxNodeModuleJsDepth": 0,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"strict": true,
+		"noEmit": true,
+		"baseUrl": ".",
+		"types": ["@nuxt/types", "@nuxt/typescript-build", "@types/node", "@nuxtjs/i18n"]
+	},
+	"exclude": ["node_modules"]
 }
