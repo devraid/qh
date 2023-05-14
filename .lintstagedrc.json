@@ -1,8 +1,8 @@
 {
-	"*.js": ["eslint --fix", "prettier --write"],
-	"*.jsx": ["eslint --fix", "prettier --write"],
-	"*.ts": ["eslint --fix", "prettier --write"],
-	"*.tsx": ["eslint --fix", "prettier --write"],
-	"*.vue": ["eslint --fix", "prettier --write"],
-	"*.scss": ["eslint --fix", "prettier --write"]
+	"*.js": ["prettier --write", "eslint --fix"],
+	"*.jsx": ["prettier --write", "eslint --fix"],
+	"*.ts": ["prettier --write", "eslint --fix"],
+	"*.tsx": ["prettier --write", "eslint --fix"],
+	"*.vue": ["prettier --write", "eslint --fix"],
+	"*.scss": ["prettier --write", "eslint --fix"]
 }

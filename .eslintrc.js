@@ -26,7 +26,17 @@ module.exports = {
 		'nuxt/no-cjs-in-config': 'off',
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-		'vue/html-indent': ['error', 'tab'],
+		'vue/html-indent': [
+			'error',
+			4,
+			{
+				attribute: 1,
+				baseIndent: 1,
+				closeBracket: 0,
+				alignAttributesVertically: false,
+				ignores: [],
+			},
+		],
 		'vue/html-closing-bracket-newline': 'off',
 		indent: ['error', 'tab'],
 		'no-tabs': 'off',
