@@ -1,11 +1,9 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.validate": [
-        "vue",
-        "html",
-        "javascript"
-    ],
-    "editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["vue", "html", "javascript"],
+	"editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "vs-code-prettier-eslint.prettierLast": true
 }
