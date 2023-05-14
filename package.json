@@ -6,7 +6,9 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"lint:js": "eslint . --ext .js,.jsx,.ts,.tsx,.vue,.scss --fix",
+		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.vue,.scss --fix",
+		"prettier": "prettier -c",
+		"prettier:fix": "prettier --write",
 		"postinstall": "nuxt prepare && husky install",
 		"prepare": "husky install"
 	},

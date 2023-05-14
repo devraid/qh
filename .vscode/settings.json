@@ -2,8 +2,8 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"eslint.validate": ["vue", "html", "javascript"],
+	"eslint.validate": ["js", "jsx", "ts", "tsx", "vue", "html", "javascript"],
 	"editor.formatOnSave": true,
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "vs-code-prettier-eslint.prettierLast": true
+	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"vs-code-prettier-eslint.prettierLast": false
 }
