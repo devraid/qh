@@ -35,14 +35,14 @@ export default {
 </script>
 
 <template>
-	<div class="home">
-		<FormsSignInRegister
-			v-if="visibleSignRegister"
-			@close="
-				() => {
-					visibleSignRegister = false
-				}
-			"
-		/>
-	</div>
+    <div class="home">
+        <FormsSignInRegister
+            v-if="visibleSignRegister"
+            @close="
+                () => {
+                    visibleSignRegister = false
+                }
+            "
+        />
+    </div>
 </template>

@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-	<div>Component: Footer</div>
+    <div>Component: Footer</div>
 </template>
 
 <style scoped></style>

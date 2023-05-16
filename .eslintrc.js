@@ -22,7 +22,7 @@ module.exports = {
 	plugins: ['vue', '@typescript-eslint', 'prettier'],
 	rules: {
 		'@typescript-eslint/no-unused-vars': 'error',
-		'@typescript-eslint/no-explicit-any': 'error',
+		'@typescript-eslint/no-explicit-any': 'off',
 		'nuxt/no-cjs-in-config': 'off',
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',

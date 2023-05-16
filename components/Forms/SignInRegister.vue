@@ -1,6 +1,7 @@
 <script lang="ts">
 import { required, email, sameAs, minLength, helpers } from '@vuelidate/validators'
 import { useVuelidate } from '@vuelidate/core'
+import { useCookie } from 'nuxt/app'
 
 export default {
 	name: 'SignInRegister',
